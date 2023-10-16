@@ -1,0 +1,38 @@
+.footer{
+    margin-left : 80px;
+    font-size : 18px;
+  }
+  
+  .all, .all2{
+    display: grid;
+    grid-template-columns:repeat(3,180px);
+  }
+
+  .all2{
+    /* margin-left:0px; */
+  }
+  .left, .right{
+    text-align: center;
+    align-items: center;
+    width: 130px;
+    height: 230px;
+    padding: 7px;
+    border: 2px solid rgb(220, 219, 219);
+    border-radius: 10px;
+    margin-top: 27px;
+  }
+  .num{
+    font-size: 40px;
+  }
+  
+  .right{
+    margin-left: 30px;
+  }
+  .score{
+    font-size: 50px;
+  }
+  
+  .superwars{
+    display: flex;
+    justify-content: space-between;
+  }
